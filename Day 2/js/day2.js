@@ -1,4 +1,4 @@
-//// Variables
+// Variables
 //var x;
 //x = 10;
 //
@@ -11,8 +11,8 @@
 //    message = 'Hello';
 
 
-////var vs let and const
-//
+//var vs let and const
+
 //var x1;
 //
 //var x1 = 10; 
@@ -22,10 +22,11 @@
 //x2 = 20;
 //
 //console.log(x1,x2)
-//this creates an error
+//
+////this creates an error
 //let x2
 
-////const
+//const
 //const pi = 3.14
 //
 //pi += 10;
@@ -39,7 +40,7 @@
 //alert(2 + 2 + '1' ); // "41" and not "221"
 //alert( 2 - '1' ); // 1
 //alert( '6' / '2' ); // 3
-//
+
 //// No effect on numbers
 //let x = 1;
 //alert( +x ); // 1
@@ -62,7 +63,7 @@
 //counter = 0;
 //alert( counter++ ); // 0
 
-////in operator
+//in operator
 //var point = { x:1, y:1 }; // Define an object 
 //var hasX = "x" in point; // Evaluates to true 
 //var hasY = "y" in point; // Evaluates to true 
@@ -86,8 +87,8 @@
 //console.log(a instanceof Object); // Evaluates to true; all arrays are objects 
 //console.log(a instanceof RegExp); // Evaluates to false; arrays are not regular expressions
 
-////type of
-//
+//type of
+
 //let num = 8;
 //let num2 = '8';
 //let obj = {
@@ -109,14 +110,14 @@
 //console.log('a ', typeof a)
 //console.log('v ', typeof b)
 
-// Functions
+//// Functions
 //function showMessage() {
 //  alert( 'Hello everyone!' );
 //}
 //showMessage();
 //showMessage();
-
-
+//
+//
 //function showMessage(from, text) { // arguments: from, text
 //  alert(from + ': ' + text);
 //}
